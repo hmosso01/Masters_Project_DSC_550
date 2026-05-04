@@ -1,0 +1,118 @@
+\documentclass[12pt, openany]{report}
+
+% Packages
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\graphicspath{{../figures/}}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage[hidelinks]{hyperref}
+\usepackage[backend=biber, style=apa]{biblatex}
+\addbibresource{references.bib}
+
+% Setting line spacing to 1.5
+\onehalfspacing
+\raggedbottom
+
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+    \pagenumbering{gobble}
+    \centering
+    \vspace*{2cm}
+    {\LARGE\bfseries Title of Paper\\[1cm]}
+    {\large Hugo Mosso\\[0.5cm]}
+    {\large University of Massachusetts Dartmouth\\[0.5cm]}
+    {\large College of Engineering\\[0.5cm]}
+    {\large Supervisor: Gary Davis, Ph.D\\[0.5cm]}
+    {\large May 2026\\[0.5cm]}
+    \vfill
+\end{titlepage}
+
+\pagenumbering{roman}
+
+% Front Matter
+\chapter*{Abstract}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\pagenumbering{arabic}
+
+\chapter{Literature Review}
+\section{Background \& Previous Research}
+\section{Common Causes}
+\section{Long-Term Effects}
+\section{The Arguments}
+\section{Why This Paper}
+
+\chapter{Socioeconomic Analysis}
+\section{The Forces}
+
+\section{Force 1: Economic Precarity}
+\subsection{Poverty Rate}
+\subsection{Housing Pressure}
+\subsection{Homeownership}
+\subsection{Household Debt Burden}
+\subsection{Labor Market Stress}
+\subsection{Childcare Costs}
+
+\section{Force 2: Time Scarcity}
+\subsection{Labor Force Participation}
+\subsection{Multiple Jobholders Rate}
+\subsection{Institutional Support}
+
+\section{Force 3: Family Formation Friction}
+\subsection{Married Households}
+\subsection{Mean Age at First Marriage}
+\subsection{Cohabitation Trends}
+\subsection{Divorce Rates}
+\subsection{Mean Age at First Birth}
+
+\section{Force 4: Psychological Climate \& Future Pessimism}
+\subsection{Overall Consumer Sentiment}
+\subsection{Consumer Sentiment by Region}
+\subsection{Consumer Sentiment by Age Group}
+\subsection{Consumer Sentiment by Income Tercile}
+\subsection{Buying Conditions}
+
+\chapter{Expectations \& Discourse Analysis}
+\section{Methodology}
+
+\section{r/Natalism}
+\subsection{Community Overview}
+\subsection{Key Themes \& Findings}
+\subsection{Framing \& Discourse Patterns}
+\subsection{Limitations}
+
+\section{r/Childfree}
+\subsection{Community Overview}
+\subsection{Key Themes \& Findings}
+\subsection{Framing \& Discourse Patterns}
+\subsection{Limitations}
+
+\section{r/Parenting}
+\subsection{Community Overview}
+\subsection{Key Themes \& Findings}
+\subsection{Framing \& Discourse Patterns}
+\subsection{Limitations}
+
+\section{r/Economics}
+\subsection{Community Overview}
+\subsection{Key Themes \& Findings}
+\subsection{Framing \& Discourse Patterns}
+\subsection{Limitations}
+
+\chapter{Synthesis \& Evaluation}
+\section{Synthesis \& Comparison}
+\section{Alignment \& Divergence}
+\section{Limitations}
+\section{Implications \& Conclusions}
+
+\nocite{*}
+\printbibliography
+
+\end{document}
