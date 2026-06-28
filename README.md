@@ -1,7 +1,6 @@
 # The Declining Birth Rate in the United States: Systemic Forces or Personal Choice?
 
-**Hugo Mosso** · University of Massachusetts Dartmouth, College of Engineering · May 2026  
-Advisor: Gary Davis, Ph.D.
+**Hugo Mosso** · University of Massachusetts Dartmouth, College of Engineering · May 2026
 
 ---
 
@@ -77,11 +76,11 @@ The project is structured in two parts:
 
 ## Tech Stack
 
-- Python — core analysis and data pipeline
-- NLTK — text preprocessing and tokenization
-- Scikit-learn — TF-IDF vectorization, LDA topic modeling
-- Matplotlib — all data visualizations
-- Pandas / NumPy — data manipulation and aggregation
+- Python: core analysis and data pipeline
+- NLTK: text preprocessing and tokenization
+- Scikit-learn: TF-IDF vectorization, LDA topic modeling
+- Matplotlib: all data visualizations
+- Pandas / NumPy: data manipulation and aggregation
 
 ---
 
